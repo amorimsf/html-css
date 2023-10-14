@@ -37,7 +37,6 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
-    font-size: 3em;
 }
 
 header a, footer a {
@@ -79,8 +78,17 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.377);
     text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
