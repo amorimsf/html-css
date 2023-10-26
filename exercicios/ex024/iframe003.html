@@ -16,6 +16,7 @@
       }
     </style>
   </head>
+
   <body>
     <h1>Faça uma escolha</h1>
     <p>
@@ -26,13 +27,19 @@
 
     <ul>
       <li>
-        <a href="paginas-extras/pagina001.html" target="frame">Primeira página</a>
+        <a href="paginas-extras/pagina001.html" target="frame"
+          >Primeira página</a
+        >
       </li>
       <li>
-        <a href="paginas-extras/pagina002.html" target="frame">Segunda página</a>
+        <a href="paginas-extras/pagina002.html" target="frame"
+          >Segunda página</a
+        >
       </li>
       <li>
-        <a href="paginas-extras/pagina003.html" target="frame">Terceira página</a>
+        <a href="paginas-extras/pagina003.html" target="frame"
+          >Terceira página</a
+        >
       </li>
     </ul>
 
@@ -46,7 +53,13 @@
       quibusdam!
     </p>
 
-    <iframe src="" name="frame" id="tela">
+    <iframe
+      srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis reprehenderit natus 
+               temporibus quas dolorem voluptatem enim voluptatibus nihil doloribus, beatae animi eum, eveniet tempore labore dignissimos ducimus 
+               maxime, aut pariatur!</p>"
+      name="frame"
+      id="tela"
+    >
       <p>Infelizmente seu navegador não é compativel com isso</p>
     </iframe>
 
